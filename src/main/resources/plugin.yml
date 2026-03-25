@@ -1,0 +1,24 @@
+name: WeaponsOfOlympia
+version: 1.1.0
+main: G0lema.me.weaponsOfOlympia.WeaponsOfOlympia
+api-version: 1.21
+description: Divine weapons of the Greek gods.
+author: G0lema
+
+commands:
+  weapon:
+    description: Give yourself a divine weapon.
+    usage: /weapon <n>
+    permission: olympia.weapon
+  recipes:
+    description: View all divine weapon crafting recipes.
+    usage: /recipes
+    permission: olympia.recipes
+
+permissions:
+  olympia.weapon:
+    description: Allows use of the /weapon command.
+    default: op
+  olympia.recipes:
+    description: Allows viewing divine weapon recipes.
+    default: true
