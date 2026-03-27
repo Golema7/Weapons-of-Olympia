@@ -1,0 +1,31 @@
+name: WeaponsOfOlympia
+version: 1.2.0
+main: G0lema.me.olympicWeapons_v2.OlympicWeapons_v2
+api-version: 1.21
+description: Divine weapons of the Greek gods.
+author: G0lema
+
+commands:
+  weapon:
+    description: Open the divine weapons menu.
+    usage: /weapon
+    permission: olympia.weapon
+  recipes:
+    description: View all divine weapon crafting recipes.
+    usage: /recipes
+    permission: olympia.recipes
+  trust:
+    description: Trust or untrust a player so your weapons won't harm them.
+    usage: /trust <player>
+    permission: olympia.trust
+
+permissions:
+  olympia.weapon:
+    description: Allows use of the /weapon command.
+    default: op
+  olympia.recipes:
+    description: Allows viewing divine weapon recipes.
+    default: true
+  olympia.trust:
+    description: Allows trusting other players.
+    default: true
